@@ -226,7 +226,7 @@ nav h1 a {
 
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
+  height: 90%;
   position: fixed;
   right: 0;
   top: 80px;
@@ -242,7 +242,7 @@ nav h1 a {
 .inside #footer {
   bottom: 0;
   position: absolute;
-  width: 50%;
+  width: 47%;
 }
 
 #restaurant-name {
@@ -323,7 +323,7 @@ nav h1 a {
 }
 
 /*
- *media queries
+ *media queries Restaurant Reviews
  */
 
 @media screen and (max-width: 443px) {
@@ -337,3 +337,7 @@ nav h1 a {
     margin: 15px auto 15px auto;
   }
 }
+
+/*
+ *media queries Restaurant Info
+ */
