@@ -128,7 +128,7 @@ nav h1 a {
 
 .filter-options {
   width: 100%;
-  height: 50px;
+  height: 80px;
   background-color: #3397DB;
   align-items: center;
 }
@@ -137,6 +137,7 @@ nav h1 a {
   color: white;
   font-size: 1rem;
   font-weight: normal;
+  padding-top: 10px;
   line-height: 1;
   margin: 0 20px;
 }
@@ -319,4 +320,20 @@ nav h1 a {
 
 #restaurant-hours td {
   color: #666;
+}
+
+/*
+ *media queries
+ */
+
+@media screen and (max-width: 443px) {
+  .filter-options {
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 444px) and (max-width: 1850px) {
+  #restaurants-list li {
+    margin: 15px auto 15px auto;
+  }
 }
