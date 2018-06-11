@@ -5,6 +5,12 @@ var map
 var markers = []
 
 /**
+ *Register the Service worker
+ */
+
+
+
+/**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
 document.addEventListener('DOMContentLoaded', (event) => {
