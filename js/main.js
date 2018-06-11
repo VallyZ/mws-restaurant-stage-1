@@ -8,7 +8,11 @@ var markers = []
  *Register the Service worker
  */
 
-
+navigator.serviceWorker.register('/sw.js').then(function(registration) {
+  console.log('Registration worked on scope:', registration.scope);
+}).catch(function(err) {
+  console.log('Registration failed', err);
+});
 
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
