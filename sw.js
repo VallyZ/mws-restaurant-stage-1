@@ -1,7 +1,7 @@
 self.addEventListener('install', function(event) {
 
   event.waitUntil(
-    caches.open('restaurant-static-v2').then(function(cache) {
+    caches.open('restaurant-static-v3').then(function(cache) {
       return cache.addAll([
         '/',
         'data/restaurants.json',
@@ -16,7 +16,7 @@ self.addEventListener('install', function(event) {
 
 self.addEventListener('activate', function(event) {
   event.waitUntil(
-    caches.delete('restaurant-static-v1')
+    caches.delete('restaurant-static-v2')
   );
 });
 
