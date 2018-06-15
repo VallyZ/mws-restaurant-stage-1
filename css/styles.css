@@ -287,6 +287,7 @@ nav h1 a {
 
 #reviews-container {
   padding: 0px;
+  padding-bottom: 75px;
 }
 
 #reviews-container h2 {
@@ -373,7 +374,7 @@ nav h1 a {
   .inside #restaurant-container, .inside #reviews-container {
     margin: auto;
     width: 100%;
-    padding: 30px 0px 30px 30px;
+    padding: 30px 0px 75px 30px;
   }
   .inside #main-content #reviews-container {
     padding-left: 0px;
@@ -387,7 +388,7 @@ nav h1 a {
     height: 500px;
   }
   .inside #restaurant-hours tr td {
-    font-size: 20px;
+    font-size: 17px;
   }
   #reviews-container h2 {
     color: #f58500;
